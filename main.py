@@ -1,3 +1,5 @@
 print("Hello World")
 print("Hello Pasha")
 print("opa")
+print("a")
+print("b")
