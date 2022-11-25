@@ -1,3 +1,3 @@
 print("Hello World")
-print("Hello Pasha")
-print("opa")
+print("Hello World")
+print("Hello python")
