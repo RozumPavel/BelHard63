@@ -1,7 +1,3 @@
-
-qweqweqwe
+print("Hello World")
+print("Hello Pasha")
 print("opa")
-asdasdasd
-asdasdasd
-asdasdasd
-qweqweqwewerwerwerwerwerwe
