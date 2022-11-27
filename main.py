@@ -1,7 +1,3 @@
 print("Hello World")
 print("Hello Pasha")
-print("Hello Pasha")
-print("Hello Pasha")
-print("opa")
-print("Hello Pasha")
-print("Hello Pasha")
+print("raz")
