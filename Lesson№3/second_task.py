@@ -1,8 +1,8 @@
 # Пользователь вводит 3 числа, найти среднее арифмитическое с точность 3
-x = float(input("Введи первое число: "))
-y = float(input("Введи второе число: "))
-z = float(input("Введи третье число: "))
-three_sums = (x, y, z)
+first_number = float(input("Введи первое число: "))
+second_number = float(input("Введи второе число: "))
+third_number = float(input("Введи третье число: "))
+three_sums = (first_number, second_number, third_number)
 general_sum = sum(three_sums)
 pre_answer = general_sum/3
 answer = round(pre_answer, 3)
