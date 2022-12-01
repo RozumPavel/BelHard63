@@ -35,5 +35,8 @@ if third_number >= 1:
 else:
     third_number = 0
 
-answer = sum([first_number, second_number, third_number])
-print("Количество положительных чисел из трех введенных: ", answer)
+answer_positive_number = sum([first_number, second_number, third_number])
+print("Количество положительных чисел из трех введенных: ", answer_positive_number)
+
+answer_negativ_number = 3 - answer_positive_number
+print("Количество отриицательных чисел из трех введенных: ", answer_negativ_number)
