@@ -2,7 +2,7 @@
 first_number = float(input("Введи первое число: "))
 second_number = float(input("Введи второе число: "))
 third_number = float(input("Введи третье число: "))
-if first_number and second_number and third_number >= 1:
+if first_number >= 1 and second_number >= 1 and third_number >= 1:
     print("Все три числа являются положительными")
 else:
     print("Не все числа из списка являются положительными")
