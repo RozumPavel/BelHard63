@@ -39,4 +39,4 @@ answer_positive_number = sum([first_number, second_number, third_number])
 print("Количество положительных чисел из трех введенных: ", answer_positive_number)
 
 answer_negativ_number = 3 - answer_positive_number
-print("Количество отриицательных чисел из трех введенных: ", answer_negativ_number)
+print("Количество отриицательных чисел (или нулей) из трех введенных: ", answer_negativ_number)
