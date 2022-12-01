@@ -1,7 +1,7 @@
 # Пользователь вводит 3 числа, сказать сколько из них положительных и сколько отрицательных
-first_number = float(input("Введи первое число: "))
-second_number = float(input("Введи второе число: "))
-third_number = float(input("Введи третье число: "))
+first_number = float(input("Введите первое число: "))
+second_number = float(input("Введите второе число: "))
+third_number = float(input("Введите третье число: "))
 if first_number >= 1 and second_number >= 1 and third_number >= 1:
     print("Все три числа являются положительными")
 
