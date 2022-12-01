@@ -18,25 +18,19 @@ if third_number >= 1:
     print("Третье число является положительным")
 else:
     print("Третье число является отрицательным или нулем")
-if first_number <= 1 and second_number <= 1 and third_number <=1:
+if first_number <= 1 and second_number <= 1 and third_number <= 1:
     print("Ни одно из чисел не является положительным")
-
-if first_number >=1:
+if first_number >= 1:
     first_number = 1
 else:
     first_number = 0
-
-if second_number >=1:
+if second_number >= 1:
     second_number = 1
 else:
     second_number = 0
-
-if third_number >=1:
+if third_number >= 1:
     third_number = 1
 else:
     third_number = 0
-
 answer = float(first_number + second_number + third_number)
 print("Количество положительных чисел: ", answer)
-
-
