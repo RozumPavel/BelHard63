@@ -1,10 +1,8 @@
 # Пользователь вводит предложение, заменить все пробелы на "-" 2-мя способами
-response = input("Введите ваше предложение: ")
-split_method = response.split(' ')
+user_sentence = input("Введите ваше предложение: ")
+split_method = user_sentence.split(' ')
 join_method = '-'.join(split_method)
 print(join_method)
 
-
-response1 = input("Введите ваше предложение: ")
-replace_method = response1.replace(' ', '-')
+replace_method = user_sentence.replace(' ', '-')
 print(replace_method)
