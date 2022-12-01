@@ -14,3 +14,4 @@ last_word = request_to_user[request_to_user.rfind(' ') + 1:]
 center_word = request_to_user[request_to_user.find(' '): request_to_user.rfind(' ') + 1]
 answer = last_word + center_word + first_word
 print(answer)
+
