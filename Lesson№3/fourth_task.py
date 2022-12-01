@@ -37,4 +37,4 @@ else:
     third_number = 0
 
 answer = float(first_number + second_number + third_number)
-print("Количество положительных чисел: ", answer)
+print("Количество положительных чисел из трех введенных: ", answer)
