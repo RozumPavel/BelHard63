@@ -5,7 +5,7 @@ third_number = float(input("Введи третье число: "))
 if first_number >= 1 and second_number >= 1 and third_number >= 1:
     print("Все три числа являются положительными")
 else:
-    print("Не все числа из списка являются положительными")
+    print("Не все из введеных трех чисел являются положительными")
 if first_number >= 1:
     print("Первое число является положительным")
 else:
