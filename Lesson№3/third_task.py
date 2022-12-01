@@ -3,12 +3,12 @@
 name = input("Введите ваше имя: ")
 age =  input("Введите ваш возраст: ")
 city = input("Введите ваш город: ")
-answer = name + ' ' + age + ' ' + city
-print("Приветствую," + ' ' + answer)
+concat_answer = name + ' ' + age + ' ' + city
+print("Приветствую," + ' ' + concat_answer)
 
-answer1 = f"Приветствую, {name} {age} {city}"
-print(answer1)
+f_string_answer = f"Приветствую, {name} {age} {city}"
+print(f_string_answer)
 
 int_age = int(age)
-answer2 = "Приветствую, %s %d %s" % (name, int_age, city)
-print(answer2)
+percent_formatting_answer = "Приветствую, %s %d %s" % (name, int_age, city)
+print(percent_formatting_answer)
