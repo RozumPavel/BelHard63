@@ -6,8 +6,5 @@ city = input("Введите ваш город: ")
 answer = name + ' ' + age + ' ' + city
 print("Приветствую," + ' ' + answer)
 
-name_feedback = name
-age_feedback = age
-city_feedback = city
-answer2 = f"Приветствую, {name_feedback} {age_feedback} {city_feedback}"
-print(answer2)
+answer1 = f"Приветствую, {name} {age} {city}"
+print(answer1)
