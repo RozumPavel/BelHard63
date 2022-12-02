@@ -59,14 +59,14 @@ print("Количество отрицательных чисел", negative_cou
 first_number = int(input("Введите первое число: "))
 second_number = int(input("Введите второе число: "))
 third_number = int(input("Введите третье число: "))
-first_number_bool_positive = bool(first_number > 0)
-second_number_bool_positive = bool(second_number > 0)
-third_number_bool_positive = bool(third_number > 0)
-sum_numbers_positive = int(first_number_bool_positive + second_number_bool_positive + third_number_bool_positive)
+first_number_bool_positive = first_number > 0
+second_number_bool_positive = second_number > 0
+third_number_bool_positive = third_number > 0
+sum_numbers_positive = (first_number_bool_positive + second_number_bool_positive + third_number_bool_positive)
 print("Количество положительных чисел из трех введенных:", sum_numbers_positive)
 
-first_number_bool_negative = bool(first_number <= 0)
-second_number_bool_negative = bool(second_number <= 0)
-third_number_bool_negative = bool(third_number <= 0)
-sum_numbers_negative = int(first_number_bool_negative + second_number_bool_negative + third_number_bool_negative)
+first_number_bool_negative = first_number <= 0
+second_number_bool_negative = second_number <= 0
+third_number_bool_negative = third_number <= 0
+sum_numbers_negative = (first_number_bool_negative + second_number_bool_negative + third_number_bool_negative)
 print("Количество отрицательных чисел (или нулей) из трех введенных:", sum_numbers_negative)
