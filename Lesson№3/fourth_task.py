@@ -1,4 +1,5 @@
 # Пользователь вводит 3 числа, сказать сколько из них положительных и сколько отрицательных
+# Первый способ
 first_number = float(input("Введите первое число: "))
 second_number = float(input("Введите второе число: "))
 third_number = float(input("Введите третье число: "))
@@ -40,3 +41,16 @@ print("Количество положительных чисел из трех 
 
 answer_negativ_number = 3 - answer_positive_number
 print("Количество отриицательных чисел (или нулей) из трех введенных: ", answer_negativ_number)
+
+# Второй способ
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+negative_count = 0
+negative_count += (a >> 31) & 1
+negative_count += (b >> 31) & 1
+negative_count += (c >> 31) & 1
+positive_count = 3 - negative_count
+negative_count
+print("Количество положительных чисел", positive_count)
+print("Количество отрицательных чисел", negative_count)
