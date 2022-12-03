@@ -51,7 +51,6 @@ negative_count += (a >> 31) & 1
 negative_count += (b >> 31) & 1
 negative_count += (c >> 31) & 1
 positive_count = 3 - negative_count
-negative_count
 print("Количество положительных чисел", positive_count)
 print("Количество отрицательных чисел", negative_count)
 
