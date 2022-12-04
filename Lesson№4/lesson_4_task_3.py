@@ -2,13 +2,13 @@
 # значениями вложенный словарь с ключами "name" и "email", а значения
 # для этих ключей будут браться с клавиатуры
 
-i = 0
-while i > -1:
-    i = i + 1
-    a = [i for i in range(0, i)]
+users = {}
+n = int(input("Введите количество: "))
+for key in range(0, n):
     dict1 = {"name": input("Введите ваше имя: "), "email": input("Введите вашу почту: ")}
-    dict2 = {i: dict1 for i in a}
-    print(dict2)
+    users[key]= dict1
+    print(users)
+    key += 1
 
 
 
