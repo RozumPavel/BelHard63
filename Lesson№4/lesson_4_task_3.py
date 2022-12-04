@@ -8,10 +8,10 @@ user_name1 = input("Введите ваше имя: ")
 user_email1 = input("Введите вашу почту: ")
 
 dict1 = {"name": user_name, "email": user_email}
-dict2 = {i: dict1 for i in "1"}
+dict2 = {i: dict1 for i in "0"}
 
 dict3 = {"name": user_name1, "email": user_email1}
-dict4 = {i: dict3 for i in "2"}
+dict4 = {i: dict3 for i in "1"}
 
 general_dict = dict2 | dict4
 print(general_dict)
