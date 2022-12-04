@@ -8,7 +8,7 @@ for key in range(0, n):
     dict1 = {"name": input("Введите ваше имя: "), "email": input("Введите вашу почту: ")}
     users[key]= dict1
     print(users)
-    key += 1
+
 
 
 
