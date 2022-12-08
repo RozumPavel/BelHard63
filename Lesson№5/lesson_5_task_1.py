@@ -1,9 +1,9 @@
 # Вывести первые N чисел кратные M и больше K
 numbers = []
 while (len(numbers)<5):
-    number_from_user = input("Введите число: ")
+    number_from_user = input("Введите ваше число: ")
     while not number_from_user.isdigit():
-        number_from_user = input("Введите ваше число: ")
+        number_from_user = input("Введите число: ")
     if not int(number_from_user) % 7 and int(number_from_user) > 10:
         numbers.append(number_from_user)
     print(numbers)
