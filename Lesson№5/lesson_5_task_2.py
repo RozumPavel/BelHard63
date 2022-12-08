@@ -12,7 +12,6 @@ while action not in correct_actions_list:
 while not second_number.isdigit():
     second_number = input("Введите второе число: ")
 
-
 if action == "плюс" or action == "сумма":
     print(float(first_number) + float(second_number))
 elif action == "минус" or action == "разница":
