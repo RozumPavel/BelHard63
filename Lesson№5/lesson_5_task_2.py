@@ -2,11 +2,13 @@
 first_number = input("Введите первое число: ")
 action = input("Введите необходимое действие: ")
 second_number = input("Введите второе число: ")
+correct_actions_list = ["плюс", "сумма",  "минус", "разница", "разделить", "деление", "умножить", "умножение", 
+"степень", "возвести в степень", "разделить по модулю", "деление по модулю", "деление с остатком", "целочисленное деление"]
 
 while not first_number.isdigit():
     first_number = input("Введите первое число: ")
-while not action.isalpha():
-    action = input("Введите необходимое действие: ")
+while action not in correct_actions_list:
+    action = input("Введите корректное действие: ")
 while not second_number.isdigit():
     second_number = input("Введите второе число: ")
 
@@ -25,5 +27,3 @@ elif action == "разделить по модулю" or action == "делени
     print(float(first_number) % float(second_number))
 elif action == "целочисленное деление":
     print(float(first_number) // float(second_number))
-else:
-    print("Введено неверное действие")
