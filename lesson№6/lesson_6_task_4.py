@@ -2,6 +2,12 @@
 # образом, чтобы остались только строки, использование дополнительного списка
 # незаконно
 
-text = ["123", "4", "5", "6", "backpack", "asd", "3123", "car"]
-text = list(filter(lambda x: x.isalpha(), text))
+
+def without_digits(text):
+    for i in text:
+        if not isinstance(i, str):
+            text.remove(i)
+
+text = [123, "hellow"]
+without_digits(text)
 print(text)
