@@ -6,6 +6,6 @@ def delete_digits(text):
         if not isinstance(i, str):
             text.remove(i)
 
-text = [123, "hellow", 123123, "cars"]
+text = [1.22, "hellow", 123123, "cars", 2.32, "kick"]
 delete_digits(text)
 print(text)
